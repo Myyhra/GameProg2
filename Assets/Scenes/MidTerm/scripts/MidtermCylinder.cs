@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class test : MonoBehaviour
+public class MidtermCylinder : MonoBehaviour
 {
+    //This script is just for inverting the normals
     void Start()
     {
         Mesh mesh = GetComponent<MeshFilter>().mesh;
